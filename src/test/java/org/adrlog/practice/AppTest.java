@@ -1,27 +1,28 @@
 package org.adrlog.practice;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
 
 public class AppTest {
-	private sample tester;
+	private App tester;
 
 	@Before
 	/** Fixture */
 	public void setUp() {
-		tester = new sample();
+		tester = new App();
 	}
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
 	}
 
 
 
 	@Test /** Test */
 	public void testSample() {
-		sample.main(new String[] {"arg1", "arg2", "arg3"});
+		tester.runThings(0, 2147483649L, 0.0, 0.1f);
 	}
 }
