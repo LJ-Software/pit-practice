@@ -23,9 +23,30 @@
           <version>1.4.3-SNAPSHOT</version>
           <configuration>
             <mutators>
-              <mutator>CONDITIONALS_REPLACEMENT</mutator>
+              <!-- 
+				<mutator>CONDITIONALS_REPLACEMENT</mutator>
               <mutator>ARITHMETIC_REPLACEMENT</mutator>
-              <mutator>ARITHMETIC_DELETION</mutator>
+ 				-->
+ 			      <mutator>ARITHMETIC_DELETION</mutator>
+ 			      <mutator>ARITHMETIC_REPLACEMENT1</mutator>
+ 			      <mutator>ARITHMETIC_REPLACEMENT2</mutator>
+ 			      <mutator>ARITHMETIC_REPLACEMENT3</mutator>
+        	  <mutator>ARITHMETIC_REPLACEMENT4</mutator>
+              <mutator>CONDITIONALS_REPLACEMENT1</mutator>
+              <mutator>CONDITIONALS_REPLACEMENT2</mutator>
+              <mutator>CONDITIONALS_REPLACEMENT3</mutator>
+              <mutator>CONDITIONALS_REPLACEMENT4</mutator>
+              <mutator>CONDITIONALS_REPLACEMENT5</mutator>
+              <mutator>CONDITIONALS_REPLACEMENT6</mutator>
+              <mutator>CONDITIONALS_REPLACEMENT7</mutator>
+              <mutator>CONDITIONALS_REPLACEMENT8</mutator>
+              <mutator>CONDITIONALS_REPLACEMENT9</mutator>
+              <mutator>CONDITIONALS_REPLACEMENT10</mutator>
+              <mutator>CONDITIONALS_REPLACEMENT11</mutator>
+              <mutator>CONDITIONALS_REPLACEMENT12</mutator>
+              <mutator>CONDITIONALS_REPLACEMENT13</mutator>
+              <mutator>CONDITIONALS_REPLACEMENT14</mutator>
+              <mutator>CONDITIONALS_REPLACEMENT15</mutator>
             </mutators>
             <failWhenNoMutations>false</failWhenNoMutations>
             </configuration>
