@@ -21,7 +21,7 @@ public class AppTest {
 
 	@Test /** Test */
 	public void testSample() {
-		tester.runThings(0, 2147483649L, 0.0, 0.1f);
+		tester.runThings();
 
 	}
 
