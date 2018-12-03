@@ -16,13 +16,58 @@ public class AppTest {
 
 	@Test
 	public void test() {
-		//fail("Not yet implemented");
+		// fail("Not yet implemented");
 	}
-
-
 
 	@Test /** Test */
 	public void testSample() {
 		tester.runThings(0, 2147483649L, 0.0, 0.1f);
+
 	}
+
+	@Test
+	public void testByte() {
+		tester.returnByte();
+	}
+
+	@Test
+	public void testDouble() {
+		tester.returnDouble();
+	}
+
+	@Test
+	public void testShort() {
+		tester.returnShort();
+	}
+
+	@Test
+	public void testInt() {
+		tester.returnInt();
+	}
+
+	@Test
+	public void testString() {
+		tester.returnString();
+	}
+
+	@Test
+	public void testObject() {
+		tester.returnObject();
+	}
+
+	@Test
+	public void testLong() {
+		tester.returnLong();
+	}
+
+	@Test
+	public void testFloat() {
+		tester.returnFloat();
+	}
+
+	@Test
+	public void testChar() {
+		tester.returnChar();
+	}
+
 }
