@@ -26,48 +26,48 @@ public class AppTest {
 	}
 
 	@Test
-	public byte testByte() {
-		return tester.returnByte();
+	public void testByte() {
+		tester.returnByte();
 	}
 
 	@Test
-	public double testDouble() {
-		return tester.returnDouble();
+	public void testDouble() {
+		tester.returnDouble();
 	}
 
 	@Test
-	public short testShort() {
-		return tester.returnShort();
+	public void testShort() {
+		tester.returnShort();
 	}
 
 	@Test
-	public int testInt() {
-		return tester.returnInt();
+	public void testInt() {
+		tester.returnInt();
 	}
 
 	@Test
-	public String testString() {
-		return tester.returnString();
+	public void testString() {
+		tester.returnString();
 	}
 
 	@Test
-	public Object testObject() {
-		return tester.returnObject();
+	public void testObject() {
+		tester.returnObject();
 	}
 
 	@Test
-	public long testLong() {
-		return tester.returnLong();
+	public void testLong() {
+		tester.returnLong();
 	}
 
 	@Test
-	public float testFloat() {
-		return tester.returnFloat();
+	public void testFloat() {
+		tester.returnFloat();
 	}
 
 	@Test
-	public char testChar() {
-		return tester.returnChar();
+	public void testChar() {
+		tester.returnChar();
 	}
 
 }
